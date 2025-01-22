@@ -5,8 +5,6 @@ import br.com.grupotsm.EmployeeControl.entities.License;
 import br.com.grupotsm.EmployeeControl.entities.enums.ReasonType;
 import com.fasterxml.jackson.annotation.JsonFormat;
 
-import javax.validation.constraints.Future;
-import javax.validation.constraints.NotNull;
 import java.io.Serializable;
 import java.time.Instant;
 import java.time.LocalDate;

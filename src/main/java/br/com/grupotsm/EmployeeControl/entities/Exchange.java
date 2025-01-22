@@ -1,9 +1,9 @@
 package br.com.grupotsm.EmployeeControl.entities;
 
-import br.com.grupotsm.EmployeeControl.entities.enums.ExpedientType;
 import br.com.grupotsm.EmployeeControl.entities.enums.ExchangeState;
+import br.com.grupotsm.EmployeeControl.entities.enums.ExpedientType;
+import jakarta.persistence.*;
 
-import javax.persistence.*;
 import java.io.Serializable;
 import java.time.LocalDate;
 import java.time.LocalDateTime;

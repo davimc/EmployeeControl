@@ -2,7 +2,7 @@ package br.com.grupotsm.EmployeeControl.entities;
 
 import br.com.grupotsm.EmployeeControl.entities.enums.ReasonType;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 import java.io.Serializable;
 import java.time.Instant;
 import java.time.LocalDate;

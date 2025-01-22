@@ -2,9 +2,9 @@ package br.com.grupotsm.EmployeeControl.entities;
 
 import br.com.grupotsm.EmployeeControl.entities.enums.ExpedientType;
 import br.com.grupotsm.EmployeeControl.entities.enums.ExchangeState;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
 
-import javax.persistence.Entity;
-import javax.persistence.Table;
 import java.time.LocalDate;
 
 @Entity

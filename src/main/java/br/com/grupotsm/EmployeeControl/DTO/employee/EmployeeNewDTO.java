@@ -2,9 +2,10 @@ package br.com.grupotsm.EmployeeControl.DTO.employee;
 
 import br.com.grupotsm.EmployeeControl.entities.Employee;
 import com.fasterxml.jackson.annotation.JsonFormat;
+import jakarta.validation.constraints.NotNull;
 import org.hibernate.validator.constraints.br.CPF;
 
-import javax.validation.constraints.*;
+import jakarta.validation.constraints.*;
 import java.time.LocalDate;
 
 public class EmployeeNewDTO {

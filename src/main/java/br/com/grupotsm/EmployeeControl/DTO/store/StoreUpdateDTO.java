@@ -2,10 +2,9 @@
 
 import br.com.grupotsm.EmployeeControl.entities.Store;
 import br.com.grupotsm.EmployeeControl.entities.enums.StoreType;
+import jakarta.validation.constraints.Positive;
+import jakarta.validation.constraints.Size;
 
-import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Positive;
-import javax.validation.constraints.Size;
 import java.io.Serializable;
 
 public class StoreUpdateDTO implements Serializable {

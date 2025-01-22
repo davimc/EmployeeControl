@@ -2,11 +2,9 @@ package br.com.grupotsm.EmployeeControl.DTO.employee;
 
 import br.com.grupotsm.EmployeeControl.entities.Employee;
 
-import java.io.Serializable;
 import java.time.LocalDate;
 
-public class EmployeeDTO implements Serializable {
-    private static final long serialVersionUID = 1L;
+public class EmployeeDTO {
 
     private long id;
     private String name;

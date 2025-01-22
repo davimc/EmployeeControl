@@ -2,13 +2,13 @@ package br.com.grupotsm.EmployeeControl.resources.exceptions;
 
 import br.com.grupotsm.EmployeeControl.services.exceptions.DatabaseException;
 import br.com.grupotsm.EmployeeControl.services.exceptions.ObjectNotFoundException;
+import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
-import javax.servlet.http.HttpServletRequest;
 import java.time.Instant;
 
 @ControllerAdvice

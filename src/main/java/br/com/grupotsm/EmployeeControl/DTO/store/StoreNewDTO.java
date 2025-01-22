@@ -2,11 +2,9 @@ package br.com.grupotsm.EmployeeControl.DTO.store;
 
 import br.com.grupotsm.EmployeeControl.entities.Store;
 import br.com.grupotsm.EmployeeControl.entities.enums.StoreType;
-import org.springframework.beans.factory.annotation.Value;
-
-import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Positive;
-import javax.validation.constraints.Size;
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Positive;
+import jakarta.validation.constraints.Size;
 import java.io.Serializable;
 
 public class StoreNewDTO implements Serializable {
