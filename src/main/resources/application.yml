@@ -1,0 +1,29 @@
+server:
+  port: 8000
+spring:
+  profiles:
+    active: ${APP_PROFILE:dev}
+
+  jpa:
+    open-in-view: false
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:8080/realms/master/
+      client:
+        registration:
+          client-service:
+            provider: keycloak
+            client-id: client-service
+            client-secret: GEU6pydeNqGTNWOxyrupLrCw1H57RMMc
+            authorization-grant-type: client_credentials
+        provider:
+          keycloak:
+            token-uri: http://localhost:8080/realms/master/protocol/openid-connect/token
+
+
+#jwt.secret=${JWT_SECRET:MY-JWT-SECRET}
+#jwt.duration=${JWT_DURATION:86400}
+
+#spring.mvc.pathmatch.matching-strategy=ant-path-matcher

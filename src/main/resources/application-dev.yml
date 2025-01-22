@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url=jdbc: postgresql://localhost:5432/emplo_control_bd
+    username: postgres
+    password: 1234567
+
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    properties:
+      hibernate:
+        ddl-auto: create
+        jdbc:
+          lob:
+            non_contextual_creation:true
+
+
