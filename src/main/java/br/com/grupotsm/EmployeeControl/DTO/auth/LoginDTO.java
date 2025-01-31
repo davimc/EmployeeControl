@@ -1,34 +1,22 @@
 package br.com.grupotsm.EmployeeControl.DTO.auth;
 
 public class LoginDTO {
-    private String id;
-    private String name;
+    private String username;
     private String password;
-    private String authorities;
 
     public LoginDTO() {
     }
 
-    public LoginDTO(String id, String username, String password, String grantType) {
-        this.id = id;
-        this.name = username;
+    public LoginDTO(String username, String password) {
+        this.username = username;
         this.password = password;
-        this.authorities = grantType;
-    }
-
-    public String getId() {
-        return id;
     }
 
     public String getUsername() {
-        return name;
+        return username;
     }
 
     public String getPassword() {
         return password;
-    }
-
-    public String getAuthorities() {
-        return authorities;
     }
 }
