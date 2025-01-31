@@ -1,6 +1,5 @@
 package br.com.grupotsm.EmployeeControl.services;
 
-import br.com.grupotsm.EmployeeControl.DTO.auth.Login;
 import br.com.grupotsm.EmployeeControl.DTO.auth.LoginDTO;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpEntity;
